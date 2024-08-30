@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/login/
+Content-Type: application/json
+
+{"email":"kabugi90@gmail.com","password":"Pass1234."}
+####
+
+POST http://127.0.0.1:8000/signup/
+Content-Type: application/json
+
+{"email":"kabugix7@gmail.com","date_of_birth":"1990-11-11","password":"Pass1234.","age":"27","username":"AlexX7","phone_number":"0771345456"}
+
+###
+GET http://127.0.0.1:8000/test_token/
+Content-Type: application/json
+Authorization: Token c31907acf056b86f30682955cd73f124ab8d0ff3
+
+{}
